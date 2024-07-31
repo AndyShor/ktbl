@@ -26,5 +26,27 @@ Model is tested on volunteers with varying degrees of general fitness, age and b
  data aquistion from IMU and data streaming realized by a BLE peripheral device (Arduino nano sense)
  data logging by a BLE central device realized using Python bleak library (Win/Linux/Mac)
 
- 
+ ### data 
+raw - recorded time series data as received
+interim - label dictionaries
+final - 1.6 seconds labeled data segments, interpolated, smoothed, equally spaced, ready to be fed to a CNN model
+
+ ### models
+best trained model
+
+ ### notebooks
+data exploration notebook
+data transformation notebook
+CNN model training notebook
+DTW estimation notebook
+
+ ### postprocessing
+streamlit app that ingests time series data and shows CNN, FFt and DTW analysis of the data
+
+ ### reports
+contains experimental findings during tests on volunteers
+
+
+
+
 
