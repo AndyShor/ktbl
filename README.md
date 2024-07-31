@@ -1,9 +1,8 @@
-# ktbl
-data aqusition and ML analysis of kettlebell exercises
+# ktbl - data aqusition and ML analysis of kettlebell exercises
 
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-yellow.svg)](https://opensource.org/license/gpl-3-0) 
 
-
+![cover](/reports/img/cover.png)
 
 
 # About
