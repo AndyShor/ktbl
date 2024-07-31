@@ -21,3 +21,10 @@ Model is tested on volunteers with varying degrees of general fitness, age and b
 # How to use
 
 ## What is included
+
+### daq 
+ data aquistion from IMU and data streaming realized by a BLE peripheral device (Arduino nano sense)
+ data logging by a BLE central device realized using Python bleak library (Win/Linux/Mac)
+
+ 
+
